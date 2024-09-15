@@ -26,5 +26,16 @@ export default defineNuxtConfig({
                 inject: true
             }
         }],
-    ]
+    ],
+    app: {
+        head: {
+            htmlAttrs: {
+                lang: "en"
+            },
+            title: "InRule - AI Decisioning Software",
+            link: [
+                { rel: "icon", type: "image/png", sizes: "32x32", href: "/favicon.svg" },
+            ]
+        }
+    }
 })
