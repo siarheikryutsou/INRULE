@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+}
+
+html {
+    font-family: Roboto, sans-serif;
+    background-color: #F5F5F5;
+    color: white;
+
+    body {
+        #__nuxt {
+
+            header {
+
+            }
+
+            .nuxt-icon {
+                display: flex;
+
+                svg {
+                    width: initial;
+                    height: initial;
+                    margin-bottom: initial;
+                    vertical-align: initial;
+                }
+            }
+        }
+    }
+}
