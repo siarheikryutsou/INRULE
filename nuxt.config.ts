@@ -21,7 +21,7 @@ export default defineNuxtConfig({
         "nuxt-icons",
         ["@nuxtjs/google-fonts", {
             families: {
-                Roboto: [500],
+                Roboto: [400, 500, 600, 700],
                 download: true,
                 inject: true
             }

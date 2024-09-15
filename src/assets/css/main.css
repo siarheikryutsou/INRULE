@@ -13,8 +13,8 @@ html {
     body {
         #__nuxt {
 
-            header {
-
+            h1 {
+                @apply text-xl font-medium;
             }
 
             .nuxt-icon {
