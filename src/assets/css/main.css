@@ -12,7 +12,7 @@ html {
 
     body {
         #__nuxt {
-
+            @apply min-w-[560px];
             h1 {
                 @apply text-xl font-medium;
             }

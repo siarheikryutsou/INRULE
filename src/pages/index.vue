@@ -47,10 +47,10 @@ const cards = [
         New Solution
       </button>
     </header>
-    <div class="grid grid-cols-3 xl:grid-cols-4 gap-3">
-      <div v-for="(card, index) in cards"
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+      <NuxtLink to="/products" v-for="(card, index) in cards"
            :key="index"
-           class="bg-white border border-[#C9CBD3] rounded-lg p-4 shadow-[0_2px_16px_0_rgba(0,0,0,0.16)]"
+           class="bg-white border border-[#C9CBD3] rounded-lg p-4 transition duration-500 hover:shadow-[0_2px_16px_0_rgba(0,0,0,0.16)]"
       >
         <div class="space-y-3">
           <div class="flex items-start gap-2 font-semibold">
@@ -73,7 +73,7 @@ const cards = [
           </div>
 
         </div>
-      </div>
+      </NuxtLink>
     </div>
   </div>
 </template>
