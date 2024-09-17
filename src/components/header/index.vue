@@ -16,10 +16,10 @@
           <span>Inbox</span>
         </div>
         <div>
-          <button class="px-2 bg-[#2E465D] rounded flex items-center gap-2 py-1.5 hover:bg-[#305374] duration-300">
+          <NuxtLink to="/" class="px-2 bg-[#2E465D] rounded flex items-center gap-2 py-1.5 hover:bg-[#305374] duration-300">
             <nuxt-icon name="solutions" filled/>
             <span>Solutions</span>
-          </button>
+          </NuxtLink>
         </div>
       </div>
 

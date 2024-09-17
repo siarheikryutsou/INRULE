@@ -1,4 +1,8 @@
 <script setup lang="ts">
+definePageMeta({
+  layout: "products"
+})
+
 const documentations = [
   {
     img: "doc_01.png",
@@ -15,9 +19,21 @@ const documentations = [
 ];
 
 const related = [
-  {icon: "card_icon_04", title:"Onboarding", text:"integrating a new employee with a company and its culture, tools etc."},
-  {icon: "card_icon_04", title:"Onboarding", text:"integrating a new employee with a company and its culture, tools etc."},
-  {icon: "card_icon_04", title:"Onboarding", text:"integrating a new employee with a company and its culture, tools etc."},
+  {
+    icon: "card_icon_04",
+    title: "Onboarding",
+    text: "integrating a new employee with a company and its culture, tools etc."
+  },
+  {
+    icon: "card_icon_04",
+    title: "Onboarding",
+    text: "integrating a new employee with a company and its culture, tools etc."
+  },
+  {
+    icon: "card_icon_04",
+    title: "Onboarding",
+    text: "integrating a new employee with a company and its culture, tools etc."
+  },
 ];
 
 </script>
@@ -35,7 +51,9 @@ const related = [
               <h2 class="text-2xl font-semibold">Loan products</h2>
               <span class="px-4 py-1.5 bg-[#D9D9D9] rounded">Category</span>
             </div>
-            <button class="text-white px-3 py-1 text-xl font-medium rounded bg-[#252E43] hover:bg-[#385aa8] duration-300">Actions
+            <button
+                class="text-white px-3 py-1 text-xl font-medium rounded bg-[#252E43] hover:bg-[#385aa8] duration-300">
+              Actions
             </button>
           </div>
 

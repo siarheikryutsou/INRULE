@@ -10,7 +10,6 @@ useHead({
   <NuxtLoadingIndicator />
   <Header />
   <main class="flex py-4">
-    <AppSidenav />
-    <NuxtPage class="pr-3 pb-3" />
+    <NuxtLayout />
   </main>
 </template>
