@@ -16,15 +16,15 @@
           <span>Inbox</span>
         </div>
         <div>
-          <div class="px-2 bg-[#2E465D] rounded flex items-center gap-2 py-1.5">
+          <button class="px-2 bg-[#2E465D] rounded flex items-center gap-2 py-1.5 hover:bg-[#305374] duration-300">
             <nuxt-icon name="solutions" filled/>
             <span>Solutions</span>
-          </div>
+          </button>
         </div>
       </div>
 
       <div class="relative">
-        <nuxt-icon name="search" class="absolute top-2 left-2" filled/>
+        <nuxt-icon name="search" class="absolute top-3 left-2" filled/>
         <input class="w-full lg:min-w-[425px] placeholder-white py-2 pl-9 pr-3 rounded bg-[#0E121B]" type="search" placeholder="Search"/>
       </div>
 
@@ -35,7 +35,9 @@
             <span class="font-medium text-sm">Help</span>
           </button>
         </div>
-        <nuxt-icon name="avatar" filled/>
+        <button>
+          <nuxt-icon name="avatar" filled/>
+        </button>
       </div>
     </div>
   </header>

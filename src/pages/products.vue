@@ -35,7 +35,7 @@ const related = [
               <h2 class="text-2xl font-semibold">Loan products</h2>
               <span class="px-4 py-1.5 bg-[#D9D9D9] rounded">Category</span>
             </div>
-            <button class="text-white px-3 py-1 text-xl font-medium rounded bg-[#252E43] hover:bg-[#385aa8]">Actions
+            <button class="text-white px-3 py-1 text-xl font-medium rounded bg-[#252E43] hover:bg-[#385aa8] duration-300">Actions
             </button>
           </div>
 
@@ -63,7 +63,7 @@ const related = [
           <div
               v-for="(item, index) in documentations"
               :key="index"
-              class="w-[292px]"
+              class="w-[292px] transition duration-500 hover:shadow-[0_2px_16px_0_rgba(0,0,0,0.16)]"
           >
             <div class="h-[160px] bg-[#F5F5F8] rounded-t-lg overflow-hidden">
               <img class="object-cover w-full h-full" :src="item.img" alt="">
@@ -84,7 +84,7 @@ const related = [
           <div
               v-for="(item, index) in related"
               :key="index"
-              class="w-[292px] rounded border border-[#C9CBD3] p-4"
+              class="w-[292px] rounded border border-[#C9CBD3] p-4 transition duration-500 hover:shadow-[0_2px_16px_0_rgba(0,0,0,0.16)]"
           >
             <nuxt-icon :name="item.icon" filled/>
             <h4 class="font-semibold mt-3 mb-2">{{ item.title }}</h4>
