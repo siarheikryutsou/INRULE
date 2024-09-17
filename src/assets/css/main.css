@@ -11,8 +11,9 @@ html {
     color: black;
 
     body {
+        @apply h-dvh;
         #__nuxt {
-            @apply min-w-[560px];
+            @apply min-w-[560px] h-full;
             h1 {
                 @apply text-xl font-medium;
             }

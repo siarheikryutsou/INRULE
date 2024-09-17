@@ -44,7 +44,7 @@ const tableContent = [
       <tbody>
       <tr v-for="(row, index) in tableContent"
           :key="index"
-          class="border-y border-[#EAEAF1] [&>*]:py-2.5 [&>*]:px-4 cursor-pointer hover:bg-[#EAEAF1] duration-300"
+          class="border-y border-[#EAEAF1] [&>*]:py-2.5 [&>*]:px-4 cursor-pointer hover:bg-[#f2f2f2] hover:duration-300 duration-1000"
           role="button"
           @click="() => navigateTo('/workspace')"
       >

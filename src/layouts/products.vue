@@ -14,10 +14,11 @@ const menuItems = [
 </script>
 
 <template>
-  <div class="flex py-4 w-full">
+  <Header/>
+  <main class="flex py-4">
     <AppSidenav title="Loan products" :items="menuItems"/>
-    <div class="w-full h-full rounded-l-lg border-l border-y border-[#D2D3D8] bg-white">
+    <div class="w-full h-full rounded-l-lg border-l border-y border-[#D2D3D8] bg-white my-12">
       <NuxtPage />
     </div>
-  </div>
+  </main>
 </template>

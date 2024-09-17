@@ -13,8 +13,9 @@ const customItems = [
 </script>
 
 <template>
-  <div class="flex py-4">
-    <AppSidenav title="Solutions" :items="menuItems" :customItems="customItems" />
+  <Header/>
+  <main class="flex py-4">
+    <AppSidenav title="Solutions" :items="menuItems" :customItems="customItems"/>
     <NuxtPage class="pr-3 pb-3"/>
-  </div>
+  </main>
 </template>
