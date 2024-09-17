@@ -16,6 +16,8 @@ const menuItems = [
 <template>
   <div class="flex py-4 w-full">
     <AppSidenav title="Loan products" :items="menuItems"/>
-    <NuxtPage class="pb-3"/>
+    <div class="w-full h-full rounded-l-lg border-l border-y border-[#D2D3D8] bg-white">
+      <NuxtPage />
+    </div>
   </div>
 </template>
